@@ -6,7 +6,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 28389;
 
 var router = express.Router();
 

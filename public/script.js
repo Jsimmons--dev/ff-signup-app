@@ -1,11 +1,14 @@
-
 function submit(){
 	$.ajax({
-			url: 'http://api.joshsimmons.rocks/freefall/maillist',
+		url: 'http://api.joshsimmons.rocks/freefall/maillist',
 		type: 'POST',
-		data: {email:$("#email").text()},
+		data: {
+			email: $("#email").val() 
+		},
 		success: function(res){
-			console.log(res);
+		},
+		error: function(XMLHttpRequest,textStatus,errorThrown){
+			console.log(textStatus);
 		}
 	});
 }
