@@ -1,0 +1,36 @@
+#subForm {
+}
+
+#thank {
+display:none;
+font-size:50px;
+}
+#header{
+ background-image:url("logo.jpg");
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+ width:500px;
+ height:500px;
+ margin: 0 auto;
+}
+body{
+background-color:#007AFF;
+color:white;
+font-family:'Architects Daughter',cursive;
+text-align:center;
+font-size:20px;
+}
+
+body input[type="text"]{
+padding:10px;
+border: solid 2px white;
+font-family:'Architects Daughter',cursive;
+}
+body button[type="button"]{
+padding:10px;
+border: solid 2px white;
+background-color:orange;
+font-family:'Architects Daughter',cursive;
+color:white;
+font-size:20px;
+}
